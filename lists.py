@@ -47,3 +47,9 @@ print(listThree)
 #in the example above, the insert parameter took two parameters.
 #Parameter one is the index position that the new item will take, i.e., position 4.
 #Hence, this method call inserts 999 between 103, and 105. Now, 999 is at index 4.
+
+
+#Getting the length of a list:
+myList = [4, 9, 12, 3, 56, 133, 27, 3]
+print (len(myList))
+#This gives 8 as the length of the list.
