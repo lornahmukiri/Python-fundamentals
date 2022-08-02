@@ -32,3 +32,11 @@ print(listThree)
 listThree.append(108)
 print(listThree)
 
+#Another example:
+fruitBasket1 = ["apples", "oranges", "pears"]
+fruitBasket2 = ["mangoes", "pineapples", "tangerines"]
+fruitBasket3 = fruitBasket1 + fruitBasket2
+print (fruitBasket3)
+
+fruitBasket3.append("lime")
+print(fruitBasket3)
