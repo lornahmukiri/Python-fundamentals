@@ -19,3 +19,7 @@ print(suits)
 values.reverse()
 print(values)
 
+listOne = [101, 102, 103]
+listTwo = [104, 105, 106]
+listThree = listOne + listTwo
+print(listThree)
