@@ -22,4 +22,13 @@ print(values)
 listOne = [101, 102, 103]
 listTwo = [104, 105, 106]
 listThree = listOne + listTwo
+print(listThree) #Here, Python treats the addition as appending listTwo to listOne
+
+#Adding items at the end of the list
+listThree += [107] #the += sign will add 107 at the end of the list.
 print(listThree)
+
+#Another way of putting an item at the end of the list is by using .append like below:
+listThree.append(108)
+print(listThree)
+
