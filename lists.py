@@ -40,3 +40,10 @@ print (fruitBasket3)
 
 fruitBasket3.append("lime")
 print(fruitBasket3)
+
+#to insert items in the middle of the list, we use insert() method, like so:
+listThree.insert(4, 999)
+print(listThree)
+#in the example above, the insert parameter took two parameters.
+#Parameter one is the index position that the new item will take, i.e., position 4.
+#Hence, this method call inserts 999 between 103, and 105. Now, 999 is at index 4.
