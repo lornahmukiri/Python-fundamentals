@@ -9,3 +9,7 @@ for name in ["Mike Pence", "Joe Biden"]:
 
 for name in ["Mwai Kibaki", "Michael Kijana Wamalwa"]:
     print (name + " was a Vice-President in Kenya")
+
+#a for loop always requires that you declare a variable.
+#written in the format of: for..(variable) in..(range)..
+
