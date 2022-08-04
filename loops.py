@@ -38,10 +38,12 @@ for num in range (1, 1001):
 
 #While - Loops.
 #A while loop executes until a condition is met.
-x = 0
-while x < 1000:
-    print (x * 2)
-    x+=1
+
+#x = 0
+#while x < 1000:
+    #print (x * 2)
+    #x+=1
+    
 #NB: while loops often involve the use of some counter that keeps track of how many times the loop has run.
 #in the above loop, x was the counter, and we also multiplied the counter by 2 each time during the loop.
 # To increment the counter we used x += 1 which is shorthand for x = x + 1, or "add one to x".
