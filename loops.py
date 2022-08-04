@@ -45,3 +45,10 @@ while x < 1000:
 #NB: while loops often involve the use of some counter that keeps track of how many times the loop has run.
 #in the above loop, x was the counter, and we also multiplied the counter by 2 each time during the loop.
 # To increment the counter we used x += 1 which is shorthand for x = x + 1, or "add one to x".
+
+#NESTING LOOPS
+suits = ['Spades', 'Clubs', 'Diamonds', 'Hearts']
+values = ['Ace', 2,3,4,5,6,7,8,9,10, 'Jack', 'Queen', 'King']
+for suit in suits:
+    for value in values:
+        print(str(value) + " of " + str(suit))
