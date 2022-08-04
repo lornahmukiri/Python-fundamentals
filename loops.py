@@ -36,5 +36,9 @@ for num in range (1, 1001):
     print(x * num)
 
 
-
-
+#While - Loops.
+#A while loop executes until a condition is met.
+x = 0
+while x < 1000:
+    print (x * 2)
+    x+=1
