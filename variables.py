@@ -5,6 +5,7 @@ meal = "An english muffin"
 print("Breakfast:")
 print(meal)
 
+
 # Now update meal to be lunch!
 meal = "Mama Rocks Mango Maasai Burger"
 
