@@ -8,7 +8,10 @@ But you, a new brood, native, athletic, continental, greater than
   before known,
 Arouse! for you must justify me."""
 
+print (leaves_of_grass)
+
 #Example 2
 to_you = """ Stranger, if you passing meet me and desire to speak to me, why
   should you not speak to me?
 And why should I not speak to you?"""
+print(to_you) #dont forget to always include print otherwise there wont be an output.
