@@ -25,3 +25,19 @@ print(hikeCaption) #., this will print: What an amazing time to walk through nat
 #what we've done aboe is created a social media caption for the photograph of nature we took on our hike,
 #  but then update the caption to include important social media tags we almost forgot.
 
+#Example 3:
+#We’re doing a little bit of online shopping and find a pair of new sneakers. 
+# Right before we check out, we spot a nice sweater and some fun books we also want to purchase!
+#Use the += operator to update the total_price to include the prices of nice_sweater and fun_books.
+totalPrice = 0
+newSneakers = 50.00
+
+totalPrice += newSneakers
+
+niceSweater = 40.00
+funBooks = 30.00
+#let's update the total price now:
+totalPrice += niceSweater + funBooks
+
+print("The total price is", totalPrice)
+#this will print 120
