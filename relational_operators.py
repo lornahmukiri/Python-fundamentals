@@ -19,3 +19,5 @@ uniCredits = 120
 
 if uniCredits >= 120:
     print("Congratulations! You have enough credits to graduate!")
+
+#using the "and" operator
