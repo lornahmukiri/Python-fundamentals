@@ -21,3 +21,11 @@ if uniCredits >= 120:
     print("Congratulations! You have enough credits to graduate!")
 
 #using the "and" operator
+#Rewrite the above if statement so that it checks to see if a student
+#meets the minimum gpa requirement of 2.0 as well as the credits.
+
+uniCredits = 120
+gpa = 3.4 #we've assigned the gpa here.
+
+if uniCredits >= 120 and gpa >= 2.0:
+    print("Congratulations! You meet the requirements to graduate!")
