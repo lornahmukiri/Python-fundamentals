@@ -29,3 +29,8 @@ gpa = 3.4 #we've assigned the gpa here.
 
 if uniCredits >= 120 and gpa >= 2.0:
     print("Congratulations! You meet the requirements to graduate!")
+
+#Using the "or" operator, send out a mailer with information on the commencement ceremonies to 
+# students who have met at least one requirement for graduation (120 credits and 2.0 GPA).
+#Write an if statement that checks if a student either has 120 or more credits or a GPA 2.0 or higher
+
