@@ -34,3 +34,5 @@ if uniCredits >= 120 and gpa >= 2.0:
 # students who have met at least one requirement for graduation (120 credits and 2.0 GPA).
 #Write an if statement that checks if a student either has 120 or more credits or a GPA 2.0 or higher
 
+if uniCredits >= 120 or gpa >= 2.0:
+    print ("You have met at least one of the graduation requirements!")
