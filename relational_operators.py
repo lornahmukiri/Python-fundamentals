@@ -17,4 +17,5 @@ if x == y:
 
 uniCredits = 120
 
-if uniCredits
+if uniCredits >= 120:
+    print("Congratulations! You have enough credits to graduate!")
