@@ -18,8 +18,13 @@ else:
 
 #Example 3:
 donation = 5000
+print("Thank you for your donation!")
 
 if donation >=1000:
-    print("You've achieved platinum status")
+    print("You've achieved platinum donor status")
 elif donation >= 500:
-    print("You've achived gold status")
+    print("You've achived gold donor status")
+elif donation >= 100:
+    print("You've achieved silver donor status")
+else:
+    print("You've achieved bronze donor status")
