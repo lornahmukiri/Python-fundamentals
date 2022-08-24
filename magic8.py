@@ -14,7 +14,7 @@
 #9. Very doubtful.
 
 
-import random
+import random #imported the random module to help generate random numbers.
 
 name = "Karimi"
 question = "Is this for real?"
@@ -33,8 +33,8 @@ else:
   print(name + " asks:" + question)
   print("Magic 8-Balls' answer: " + answer)
 
-random_number = random.randint(1, 12)
-print(random_number) #this is generating a random number.
+random_number = random.randint(1, 12) #this is generating a random number.In Python, we use the .randint() function from the random module to generate a random number from a range.
+print(random_number) 
 
 if random_number == 1:
   answer = "Yes - definitely."
