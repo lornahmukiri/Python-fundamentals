@@ -32,6 +32,9 @@
 #Over 6 lb but less than or equal to 10 lb	            $12.00	$0.00
 #Over 10 lb	                                            $14.25	$0.00
 
+#Write a shipping.py Python program that asks the user for the weight of their package and then tells 
+# them which method of shipping is cheapest and how much it will cost to ship their package using Sal’s Shippers.
+
 weight = 41.5
 
 #Ground Shipping
