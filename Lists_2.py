@@ -39,3 +39,9 @@ print(example_List)
 
 #Modifying list elements
 #Example 1
+garden = ["Tomatoes", "Green Beans", "Cauliflower", "Grapes"]
+#Let's modify the list above to replace Cauliflower with Strawberries
+#We will reassign the value using the specific inded=x, like so:
+garden [2] = "Strawberries"
+print(garden)
+
