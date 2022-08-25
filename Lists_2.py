@@ -36,3 +36,6 @@ print(orders)
 #.remove() removes an element in a list. E.g. 
 example_List.remove(4)
 print(example_List)
+
+#Modifying list elements
+#Example 1
