@@ -45,3 +45,8 @@ garden = ["Tomatoes", "Green Beans", "Cauliflower", "Grapes"]
 garden [2] = "Strawberries"
 print(garden)
 
+#Example 2
+garden_waitlist = ["Jiho", "Adam", "Sonny", "Alisha"]
+
+garden_waitlist[1] = "Calla"
+print(garden_waitlist)
