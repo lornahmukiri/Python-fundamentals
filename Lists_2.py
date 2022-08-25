@@ -71,3 +71,5 @@ print(new_store_order_list)
 new_store_order_list.remove("Onions")
 print(new_store_order_list)
 #When we call .remove() on a list with a value that does not exist, we will receive a ValueError, as is the case above...
+
+#Creating 2-D lists (lists containing other lists.)
