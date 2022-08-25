@@ -76,3 +76,8 @@ print(new_store_order_list)
 #Example 1
 heights = [["Jenny", 61], ["Alexus", 70], ["Sam", 67], ["Grace", 64], ["Vik", 68]]
 
+#Example 2
+ages =[
+  ["Aaron", 15], 
+  ["Dhruti", 16]
+  ]
