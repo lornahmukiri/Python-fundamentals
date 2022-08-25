@@ -73,3 +73,6 @@ print(new_store_order_list)
 #When we call .remove() on a list with a value that does not exist, we will receive a ValueError, as is the case above...
 
 #Creating 2-D lists (lists containing other lists.)
+#Example 1
+heights = [["Jenny", 61], ["Alexus", 70], ["Sam", 67], ["Grace", 64], ["Vik", 68]]
+
