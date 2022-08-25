@@ -92,8 +92,10 @@ class_name_test = [
 ]
 print(class_name_test)
 
+#select Sam‘s test score from the list class_name_test
 sams_score = class_name_test[2][1]
 print(sams_score)
 
+#select Ellies test score from the list class_name_test, using negative indices.
 ellies_score = class_name_test [-1][-1]
 print(ellies_score)
