@@ -18,12 +18,20 @@ example_List = [1, 2, 3, 4]
 example_List.append(5)
 print(example_List)
 
-#Example 2:
+#Append Example 2:
 #create a list
 garden = ["Tomatoes", "Garlic", "Spinach"]
 #append a new element:
 garden.append("Mangoes")
 print(garden)
+
+#Append Example 3
+orders = ["daisies", "periwinkle"]
+print(orders)
+
+orders.append("tulips")
+orders.append("roses")
+print(orders)
 
 #.remove() removes an element in a list. E.g. 
 example_List.remove(4)
