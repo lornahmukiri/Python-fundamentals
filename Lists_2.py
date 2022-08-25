@@ -7,3 +7,10 @@
 #The boolean True (to represent Sam passing the test)
 
 sam_height_and_testscore = ["Sam", 67, 85.5, True]
+
+
+#List methods. 
+#.append() adds an element at the end of a list. E.g.
+example_List = [1, 2, 3, 4]
+example_List.append(5)
+print(example_List)
