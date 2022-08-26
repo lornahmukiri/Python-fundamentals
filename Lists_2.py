@@ -101,3 +101,19 @@ ellies_score = class_name_test [-1][-1]
 print(ellies_score)
 
 #MODIFYING 2D Lists
+#Example 1
+#2D list of the incoming class.
+incoming_class = [
+["Kenny", "American", 9],
+["Tanya", "Russian", 9],
+["Madison", "Indian", 7],
+]
+print(incoming_class)
+
+#changing Madison's grade to 8 (using a positive index)
+incoming_class[2][2] = 8
+print(incoming_class)
+
+#changing Kenny's name to Ken, using a negative index.
+incoming_class[-3][-3] = "Ken"
+print(incoming_class)
