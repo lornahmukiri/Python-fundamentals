@@ -126,3 +126,11 @@ preferred_size = ["Small","Large","Medium"]
 #Add Depak's size as Medium.
 preferred_size.append("Medium")
 print(preferred_size)
+
+customer_data = [
+  ["Ainsley", "Small", True],
+  ["Ben", "Large", False],
+  ["Chani", "Medium", True],
+  ["Depak", "Medium", False]
+]
+print(customer_data)
