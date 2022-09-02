@@ -116,3 +116,7 @@ print(incoming_class)
 #changing Kenny's name to Ken, using a negative index.
 incoming_class[-3][-3] = "Ken"
 print(incoming_class)
+
+
+#LIST REVIEW: 
+first_names = ["Ainsley", "Ben", "Chani", "Depak"]
