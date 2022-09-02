@@ -120,3 +120,9 @@ print(incoming_class)
 
 #LIST REVIEW: 
 first_names = ["Ainsley", "Ben", "Chani", "Depak"]
+
+preferred_size = ["Small","Large","Medium"]
+
+#Add Depak's size as Medium.
+preferred_size.append("Medium")
+print(preferred_size)
